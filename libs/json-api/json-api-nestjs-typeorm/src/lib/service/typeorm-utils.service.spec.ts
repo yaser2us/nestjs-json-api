@@ -1,6 +1,6 @@
 import { TestingModule } from '@nestjs/testing';
-import { PostRelationshipData, Query } from '@knoknox/json-api-nestjs';
-import { QueryField, FilterOperand } from '@knoknox/json-api-nestjs-shared';
+import { PostRelationshipData, Query } from '@yaser2us/json-api-nestjs';
+import { QueryField, FilterOperand } from '@yaser2us/json-api-nestjs-shared';
 import {
   BadRequestException,
   NotFoundException,

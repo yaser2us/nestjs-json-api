@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { FilterOperand as FilterOperandType } from '@knoknox/json-api-nestjs-shared';
+import { FilterOperand as FilterOperandType } from '@yaser2us/json-api-nestjs-shared';
 
 const title = 'is equal to the conditional of query';
 

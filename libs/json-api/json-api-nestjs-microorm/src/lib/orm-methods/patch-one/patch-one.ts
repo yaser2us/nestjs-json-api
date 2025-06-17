@@ -2,8 +2,8 @@ import {
   NotFoundException,
   UnprocessableEntityException,
 } from '@nestjs/common';
-import { ObjectTyped } from '@knoknox/json-api-nestjs-shared';
-import { PatchData, ValidateQueryError } from '@knoknox/json-api-nestjs';
+import { ObjectTyped } from '@yaser2us/json-api-nestjs-shared';
+import { PatchData, ValidateQueryError } from '@yaser2us/json-api-nestjs';
 import { MicroOrmService } from '../../service';
 
 export async function patchOne<E extends object, IdKey extends string>(

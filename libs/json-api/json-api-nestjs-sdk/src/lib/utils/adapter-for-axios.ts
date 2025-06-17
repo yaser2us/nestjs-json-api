@@ -2,7 +2,7 @@ import {
   RelationKeys,
   ResourceObject,
   ResourceObjectRelationships,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import { Axios, AxiosResponse, Method } from 'axios';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

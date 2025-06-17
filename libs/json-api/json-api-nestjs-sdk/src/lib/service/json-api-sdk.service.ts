@@ -2,7 +2,7 @@ import {
   RelationKeys,
   ResourceObject,
   EntityClass,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 
 import { EMPTY, expand, Observable, reduce, throwError } from 'rxjs';
 import { map } from 'rxjs/operators';

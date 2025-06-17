@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ApplicationConfig } from '@nestjs/core';
 import { faker } from '@faker-js/faker';
-import { PropertyKeys } from '@knoknox/json-api-nestjs-shared';
+import { PropertyKeys } from '@yaser2us/json-api-nestjs-shared';
 import { JsonApiTransformerService } from './json-api-transformer.service';
 import { EntityParamMapService } from './entity-param-map.service';
 import { usersEntityParamMapMockData } from '../../../utils/___test___/test.helper';

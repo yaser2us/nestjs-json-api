@@ -5,7 +5,7 @@ import {
 } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
 import { ApiBody, ApiOperation, ApiParam, ApiResponse } from '@nestjs/swagger';
 import { generateSchema } from '@anatine/zod-openapi';
-import { EntityClass } from '@knoknox/json-api-nestjs-shared';
+import { EntityClass } from '@yaser2us/json-api-nestjs-shared';
 
 import { TypeField } from '../../../../types';
 

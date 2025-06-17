@@ -5,7 +5,7 @@ import {
   Operation,
   AnyEntity,
   EntityClass,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import {
   z,
   ZodArray,

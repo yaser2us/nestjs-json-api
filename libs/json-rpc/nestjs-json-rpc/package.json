@@ -1,5 +1,5 @@
 {
-  "name": "@knoknox/nestjs-json-rpc",
+  "name": "@yaser2us/nestjs-json-rpc",
   "version": "1.0.0",
   "engines": {
     "node": ">= 16.0.0"

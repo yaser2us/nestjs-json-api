@@ -80,11 +80,11 @@
             "command": "node tools/scripts/prepare-package-json.mjs json-api-nestjs-sdk"
           },
           {
-            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@knoknox/json-api-nestjs-sdk",
+            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@yaser2us/json-api-nestjs-sdk",
             "forwardAllArgs": false
           },
           {
-            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@knoknox/json-api-nestjs-sdk",
+            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@yaser2us/json-api-nestjs-sdk",
             "forwardAllArgs": false
           }
         ],

@@ -3,7 +3,7 @@ import {
   QueryField,
   ResourceObject,
   ResourceObjectRelationships,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import {
   JsonApiTransformerService,
   OrmService,
@@ -13,7 +13,7 @@ import {
   PostRelationshipData,
   Query,
   QueryOne,
-} from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs';
 
 import {
   getAll,
@@ -27,7 +27,7 @@ import {
   postRelationship,
 } from '../orm-methods';
 import { MicroOrmUtilService } from './micro-orm-util.service';
-import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
+import { RelationKeys } from '@yaser2us/json-api-nestjs-shared';
 
 export class MicroOrmService<E extends object, IdKey extends string = 'id'>
   implements OrmService<E, IdKey>

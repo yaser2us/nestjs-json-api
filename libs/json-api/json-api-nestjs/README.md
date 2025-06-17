@@ -18,7 +18,7 @@ need to write any code.
 ## Installation
 
 ```bash  
-$ npm install @knoknox/json-api-nestjs
+$ npm install @yaser2us/json-api-nestjs
 ```  
 
 ## Example
@@ -27,8 +27,8 @@ Once the installation process is complete, we can import the **JsonApiModule** i
 ### TypeOrm
 ```typescript
 import {Module} from '@nestjs/common';
-import {JsonApiModule} from '@knoknox/json-api-nestjs';
-import {TypeOrmJsonApiModule} from '@knoknox/json-api-nestjs-typeorm';
+import {JsonApiModule} from '@yaser2us/json-api-nestjs';
+import {TypeOrmJsonApiModule} from '@yaser2us/json-api-nestjs-typeorm';
 import {Users} from 'type-orm/database';
 
 @Module({
@@ -45,8 +45,8 @@ export class AppModule {
 ### MicroOrm
 ```typescript
 import {Module} from '@nestjs/common';
-import {JsonApiModule} from '@knoknox/json-api-nestjs';
-import {MicroOrmJsonApiModule} from '@knoknox/json-api-nestjs-microorm';
+import {JsonApiModule} from '@yaser2us/json-api-nestjs';
+import {MicroOrmJsonApiModule} from '@yaser2us/json-api-nestjs-microorm';
 import {Users} from 'micro-orm/database';
 
 @Module({
@@ -106,10 +106,10 @@ import {
   InjectService,
   JsonApiService,
   Query,
-} from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs';
 import {
   ResourceObjectRelationships,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import {ExampleService} from '../../service/example/example.service';
 
 @JsonApi(Users, {

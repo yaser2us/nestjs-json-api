@@ -8,7 +8,7 @@ import {
 } from '@nestjs-json-api/typeorm-database';
 import { faker } from '@faker-js/faker';
 
-import { FilterOperand, JsonSdkPromise } from '@knoknox/json-api-nestjs-sdk';
+import { FilterOperand, JsonSdkPromise } from '@yaser2us/json-api-nestjs-sdk';
 import { getUser } from '../utils/data-utils';
 import { creatSdk, run } from '../utils/run-application';
 

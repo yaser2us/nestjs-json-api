@@ -1,5 +1,5 @@
 import { FactoryProvider } from '@nestjs/common';
-import { AnyEntity, EntityClass } from '@knoknox/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@yaser2us/json-api-nestjs-shared';
 import { MAP_CONTROLLER_ENTITY, ZOD_INPUT_OPERATION } from '../constants';
 import { MapController } from '../types';
 import { zodInputOperation, ZodInputOperation } from '../utils';

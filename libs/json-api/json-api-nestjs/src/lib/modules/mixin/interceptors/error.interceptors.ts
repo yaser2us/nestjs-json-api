@@ -5,7 +5,7 @@ import {
   Injectable,
   NestInterceptor,
 } from '@nestjs/common';
-import { ResourceObject } from '@knoknox/json-api-nestjs-shared';
+import { ResourceObject } from '@yaser2us/json-api-nestjs-shared';
 import { ErrorFormatService } from '../service';
 import { catchError, Observable, throwError } from 'rxjs';
 

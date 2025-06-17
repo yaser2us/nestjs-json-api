@@ -2,8 +2,8 @@ import { NotFoundException } from '@nestjs/common';
 import {
   RelationKeys,
   ResourceObjectRelationships,
-} from '@knoknox/json-api-nestjs-shared';
-import { ValidateQueryError } from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs-shared';
+import { ValidateQueryError } from '@yaser2us/json-api-nestjs';
 import { TypeOrmService } from '../../service';
 
 export async function getRelationship<

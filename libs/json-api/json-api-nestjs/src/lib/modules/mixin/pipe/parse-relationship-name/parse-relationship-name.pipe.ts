@@ -3,7 +3,7 @@ import {
   UnprocessableEntityException,
   Inject,
 } from '@nestjs/common';
-import { EntityClass, getEntityName } from '@knoknox/json-api-nestjs-shared';
+import { EntityClass, getEntityName } from '@yaser2us/json-api-nestjs-shared';
 
 import { EntityParam, ValidateQueryError } from '../../../../types';
 import { CHECK_RELATION_NAME, CURRENT_ENTITY } from '../../../../constants';

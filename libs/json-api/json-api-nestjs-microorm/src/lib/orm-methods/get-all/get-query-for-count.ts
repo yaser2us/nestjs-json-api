@@ -1,5 +1,5 @@
-import { ObjectTyped } from '@knoknox/json-api-nestjs-shared';
-import { Query } from '@knoknox/json-api-nestjs';
+import { ObjectTyped } from '@yaser2us/json-api-nestjs-shared';
+import { Query } from '@yaser2us/json-api-nestjs';
 import type { QBQueryOrderMap, EntityKey } from '@mikro-orm/core';
 
 import { MicroOrmService } from '../../service';

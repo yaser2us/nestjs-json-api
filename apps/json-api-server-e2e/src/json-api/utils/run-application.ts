@@ -1,13 +1,13 @@
 import { Test } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
-import { adapterForAxios, JsonApiJs } from '@knoknox/json-api-nestjs-sdk';
+import { adapterForAxios, JsonApiJs } from '@yaser2us/json-api-nestjs-sdk';
 import {
   RpcFactory,
   axiosTransportFactory,
   RpcConfig,
-} from '@knoknox/nestjs-json-rpc-sdk';
+} from '@yaser2us/nestjs-json-rpc-sdk';
 import { RpcService } from '@nestjs-json-api/type-for-rpc';
-import { TransportType } from '@knoknox/nestjs-json-rpc-sdk';
+import { TransportType } from '@yaser2us/nestjs-json-rpc-sdk';
 import axios from 'axios';
 import { Logger } from 'nestjs-pino';
 import { WebSocket } from 'ws';

@@ -4,7 +4,7 @@ import {
   ORM_SERVICE,
   PatchData,
   PostData,
-} from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs';
 import { Repository } from 'typeorm';
 
 import { TypeOrmService, TypeormUtilsService } from '../../service';

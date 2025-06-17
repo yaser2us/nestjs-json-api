@@ -1,5 +1,5 @@
 import { MikroORM, RawQueryFragment } from '@mikro-orm/core';
-import { FilterOperand } from '@knoknox/json-api-nestjs-shared';
+import { FilterOperand } from '@yaser2us/json-api-nestjs-shared';
 import { TestingModule } from '@nestjs/testing/testing-module';
 
 import { MicroOrmUtilService } from './micro-orm-util.service';

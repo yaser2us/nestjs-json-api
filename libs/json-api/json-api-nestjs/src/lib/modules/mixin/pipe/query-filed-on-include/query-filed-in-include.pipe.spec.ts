@@ -1,5 +1,5 @@
 import { BadRequestException } from '@nestjs/common';
-import { QueryField } from '@knoknox/json-api-nestjs-shared';
+import { QueryField } from '@yaser2us/json-api-nestjs-shared';
 import { QueryFiledInIncludePipe } from './query-filed-in-include.pipe';
 import { Users } from '../../../../utils/___test___/test-classes.helper';
 import { Query } from '../../zod';

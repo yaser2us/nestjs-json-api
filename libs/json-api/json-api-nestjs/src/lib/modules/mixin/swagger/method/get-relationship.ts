@@ -1,6 +1,6 @@
 import { Type } from '@nestjs/common';
 import { ApiOperation, ApiParam, ApiResponse } from '@nestjs/swagger';
-import { EntityClass } from '@knoknox/json-api-nestjs-shared';
+import { EntityClass } from '@yaser2us/json-api-nestjs-shared';
 
 import { TypeField } from '../../../../types';
 import { errorSchema, schemaTypeForRelation } from '../utils';

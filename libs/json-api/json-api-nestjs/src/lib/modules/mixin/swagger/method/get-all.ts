@@ -4,7 +4,7 @@ import {
   ObjectTyped,
   EntityClass,
   FilterOperand,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 
 import {
   assertIsKeysOfObject,

@@ -1,6 +1,6 @@
 import { NotFoundException } from '@nestjs/common';
-import { ValidateQueryError, QueryOne } from '@knoknox/json-api-nestjs';
-import { ObjectTyped, ResourceObject } from '@knoknox/json-api-nestjs-shared';
+import { ValidateQueryError, QueryOne } from '@yaser2us/json-api-nestjs';
+import { ObjectTyped, ResourceObject } from '@yaser2us/json-api-nestjs-shared';
 import { TypeOrmService } from '../../service';
 
 export async function getOne<E extends object, IdKey extends string>(

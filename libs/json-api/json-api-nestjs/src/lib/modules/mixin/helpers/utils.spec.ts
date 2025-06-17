@@ -1,4 +1,4 @@
-import { getEntityName } from '@knoknox/json-api-nestjs-shared';
+import { getEntityName } from '@yaser2us/json-api-nestjs-shared';
 
 import { nameIt, excludeMethod, getProviderName } from './utils';
 import { Bindings } from '../config/bindings';

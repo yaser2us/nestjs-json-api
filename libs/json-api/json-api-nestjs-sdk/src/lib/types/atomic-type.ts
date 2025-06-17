@@ -3,7 +3,7 @@ import {
   KEY_MAIN_OUTPUT_SCHEMA,
   Operation,
   ResourceObject,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import { AtomicMainOperations } from './atomic-operation';
 
 export type BodyType = {

@@ -1,5 +1,5 @@
 import { z, ZodObject } from 'zod';
-import { QueryField } from '@knoknox/json-api-nestjs-shared';
+import { QueryField } from '@yaser2us/json-api-nestjs-shared';
 
 import { zodFieldsQuery, ZodFieldsQuery } from './fields';
 import { zodFilterQuery, ZodFilterQuery } from './filter';

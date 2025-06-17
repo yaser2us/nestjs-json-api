@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { JsonApiModule, ORM_SERVICE } from '@knoknox/json-api-nestjs';
-import { TypeOrmJsonApiModule, createSimpleAccessControlledService } from '@knoknox/json-api-nestjs-typeorm';
+import { JsonApiModule, ORM_SERVICE } from '@yaser2us/json-api-nestjs';
+import { TypeOrmJsonApiModule, createSimpleAccessControlledService } from '@yaser2us/json-api-nestjs-typeorm';
 
 
 import {

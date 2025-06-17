@@ -3,7 +3,7 @@ import {
   KEY_MAIN_INPUT_SCHEMA,
   KEY_MAIN_OUTPUT_SCHEMA,
   RelationKeys,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import { map } from 'rxjs/operators';
 
 import { GenerateAtomicBody } from '../utils';

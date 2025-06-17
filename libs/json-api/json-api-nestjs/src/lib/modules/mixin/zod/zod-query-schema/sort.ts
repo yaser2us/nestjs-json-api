@@ -1,4 +1,4 @@
-import { ObjectTyped } from '@knoknox/json-api-nestjs-shared';
+import { ObjectTyped } from '@yaser2us/json-api-nestjs-shared';
 import { z, ZodObject } from 'zod';
 
 import { EntityParam, EntityRelationProps } from '../../../../types';

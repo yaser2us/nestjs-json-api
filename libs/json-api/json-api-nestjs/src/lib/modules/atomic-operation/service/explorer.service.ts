@@ -1,7 +1,7 @@
 import { Inject, Injectable, Type } from '@nestjs/common';
 import { Module } from '@nestjs/core/injector/module';
 import { ModulesContainer } from '@nestjs/core';
-import { RelationKeys, Operation } from '@knoknox/json-api-nestjs-shared';
+import { RelationKeys, Operation } from '@yaser2us/json-api-nestjs-shared';
 import { MAP_CONTROLLER_ENTITY, MAP_ENTITY } from '../constants';
 import { MapController, MapEntity, OperationMethode } from '../types';
 

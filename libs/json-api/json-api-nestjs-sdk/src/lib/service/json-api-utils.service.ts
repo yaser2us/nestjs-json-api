@@ -8,7 +8,7 @@ import {
   ResourceObject,
   ResourceObjectRelationships,
   Include,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import { kebabCase } from 'change-case-commonjs';
 import {
   JsonApiSdkConfig,

@@ -3,7 +3,7 @@ import {
   ResultRpcFactoryPromise,
   ErrorCodeType,
   RpcError,
-} from '@knoknox/nestjs-json-rpc-sdk';
+} from '@yaser2us/nestjs-json-rpc-sdk';
 
 import {
   creatWsRpcSdk,

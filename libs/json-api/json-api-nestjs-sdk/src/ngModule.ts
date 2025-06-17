@@ -1,4 +1,4 @@
-export { FilterOperand, ResourceObject } from '@knoknox/json-api-nestjs-shared';
+export { FilterOperand, ResourceObject } from '@yaser2us/json-api-nestjs-shared';
 
 export {
   AtomicFactory,

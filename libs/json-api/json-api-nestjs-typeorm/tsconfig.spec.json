@@ -6,10 +6,10 @@
     "moduleResolution": "node10",
     "types": ["jest", "node"],
     "paths": {
-      "@knoknox/json-api-nestjs-shared": [
+      "@yaser2us/json-api-nestjs-shared": [
         "libs/json-api/json-api-nestjs-shared/src/index.ts"
       ],
-      "@knoknox/json-api-nestjs": [
+      "@yaser2us/json-api-nestjs": [
         "libs/json-api/json-api-nestjs/src/index.ts"
       ]
     },

@@ -14,7 +14,7 @@ The plugin of client for help work with JSON API over [json-api-nestjs](https://
 ## Installation
 
 ```bash $ 
-npm install @knoknox/json-api-nestjs-sdk 
+npm install @yaser2us/json-api-nestjs-sdk 
 ```
 
 ## Example
@@ -27,7 +27,7 @@ import {
   FilterOperand,
   JsonApiJs,
   JsonSdkPromise,
-} from '@knoknox/json-api-nestjs-sdk';
+} from '@yaser2us/json-api-nestjs-sdk';
 import { faker } from '@faker-js/faker';
 import axios from 'axios';
 
@@ -97,7 +97,7 @@ import {
   provideJsonApi, 
   AtomicFactory, 
   JsonApiSdkService 
-} from '@knoknox/json-api-nestjs-sdk/ngModule';
+} from '@yaser2us/json-api-nestjs-sdk/ngModule';
 import {
   provideHttpClient,
   withFetch,

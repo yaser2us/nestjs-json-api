@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { AnyEntity, EntityClass } from '@knoknox/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@yaser2us/json-api-nestjs-shared';
 
 import { ENTITY_PARAM_MAP, CURRENT_ENTITY } from '../../../constants';
 import { EntityParamMap } from '../types';

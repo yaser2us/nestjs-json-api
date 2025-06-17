@@ -1,4 +1,4 @@
-import { QueryField } from '@knoknox/json-api-nestjs-shared';
+import { QueryField } from '@yaser2us/json-api-nestjs-shared';
 import { z } from 'zod';
 
 import { EntityParamMapService } from '../../service';

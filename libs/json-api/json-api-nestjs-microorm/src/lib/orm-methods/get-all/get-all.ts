@@ -1,5 +1,5 @@
 import { QueryFlag, wrap } from '@mikro-orm/core';
-import { Query } from '@knoknox/json-api-nestjs';
+import { Query } from '@yaser2us/json-api-nestjs';
 import { MicroOrmService } from '../../service';
 
 import { getQueryForCount, getSortObject } from './get-query-for-count';

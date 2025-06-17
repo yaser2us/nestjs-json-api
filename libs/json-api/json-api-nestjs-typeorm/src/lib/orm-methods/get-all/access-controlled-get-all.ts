@@ -1,8 +1,8 @@
 // simple-access-controlled-get-all.ts
 // Simplified POC - Avoids complex TypeScript generic issues
 
-import { Query } from '@knoknox/json-api-nestjs';
-import { ResourceObject } from '@knoknox/json-api-nestjs-shared';
+import { Query } from '@yaser2us/json-api-nestjs';
+import { ResourceObject } from '@yaser2us/json-api-nestjs-shared';
 import { TypeOrmService } from '../../service';
 
 // ======================

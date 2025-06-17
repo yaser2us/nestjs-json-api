@@ -1,4 +1,4 @@
-import { Operation, RelationKeys } from '@knoknox/json-api-nestjs-shared';
+import { Operation, RelationKeys } from '@yaser2us/json-api-nestjs-shared';
 
 import { AtomicMainOperations, JsonApiSdkConfig, BodyType } from '../types';
 import { getTypeForReq } from './utils';

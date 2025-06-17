@@ -6,8 +6,8 @@ import {
   ResourceObject,
   ObjectTyped,
   QueryField,
-} from '@knoknox/json-api-nestjs-shared';
-import { PatchData, Query, ValidateQueryError } from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs-shared';
+import { PatchData, Query, ValidateQueryError } from '@yaser2us/json-api-nestjs';
 import { DeepPartial } from 'typeorm';
 
 import { TypeOrmService } from '../../service';

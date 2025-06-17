@@ -4,7 +4,7 @@ import {
   PrepareParams,
   MODULE_OPTIONS_TOKEN,
   NestProvider,
-} from '@knoknox/json-api-nestjs';
+} from '@yaser2us/json-api-nestjs';
 import { MicroOrmParam } from './type';
 
 import {

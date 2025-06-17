@@ -21,8 +21,8 @@ import {
   ENTITY_PARAM_MAP,
   FIND_ONE_ROW_ENTITY,
   FindOneRowEntity,
-} from '@knoknox/json-api-nestjs';
-import { getEntityName } from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs';
+import { getEntityName } from '@yaser2us/json-api-nestjs-shared';
 
 import {
   getProps,

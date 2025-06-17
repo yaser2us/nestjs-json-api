@@ -1,4 +1,4 @@
-import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
+import { RelationKeys } from '@yaser2us/json-api-nestjs-shared';
 import { Observable } from 'rxjs';
 
 import { ReturnIfArray } from './utils';

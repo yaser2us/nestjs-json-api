@@ -3,7 +3,7 @@ import {
   BaseAttribute,
   RelationKeys,
   BaseMainData,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 
 export type Relationships<
   Entity extends object,

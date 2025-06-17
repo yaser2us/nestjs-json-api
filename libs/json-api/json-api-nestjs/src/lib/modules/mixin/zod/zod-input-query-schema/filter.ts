@@ -2,7 +2,7 @@ import {
   FilterOperand,
   isString,
   ObjectTyped,
-} from '@knoknox/json-api-nestjs-shared';
+} from '@yaser2us/json-api-nestjs-shared';
 import { z, ZodType } from 'zod';
 
 import { EntityParamMapService } from '../../service';
