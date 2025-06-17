@@ -22,6 +22,12 @@ type ModuleCommonOptions = {
   debug?: boolean;
   pipeForId?: PipeMixin;
   operationUrl?: string;
+  // ✨ Add pipe for query support
+  pipeForQuery?: PipeMixin;
+  // ✨ Add context configuration
+  enableAuditLogging?: boolean;
+  enableContext?: boolean;
+  contextExtractor?: (request: any) => any;
 };
 
 type ModuleOptionsParams<OrmParams = NonNullable<unknown>> = IfEquals<

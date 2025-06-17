@@ -17,6 +17,7 @@ type Shape<E extends object, IdKey extends string> = {
   [QueryField.include]: ZodIncludeQuery<E, IdKey>;
   [QueryField.sort]: ZodSortQuery<E, IdKey>;
   [QueryField.page]: ZodPageInputQuery;
+  [QueryField.context]?: z.ZodTypeAny; 
 };
 
 function getShape<E extends object, IdKey extends string = 'id'>(

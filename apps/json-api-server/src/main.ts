@@ -32,7 +32,7 @@ async function bootstrap() {
     {}
   );
   await app.init();
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 3132;
 
   await app.listen(port);
   Logger.log(

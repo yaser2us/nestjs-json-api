@@ -29,6 +29,11 @@ export function prepareConfig<OrmParams>(
       requiredSelectField: !!options['requiredSelectField'],
       debug: !!options['debug'],
       pipeForId: options['pipeForId'] || ParseIntPipe,
+      // ✨ Add new options
+      pipeForQuery: options['pipeForQuery'] || '',
+      enableContext: !!options['enableContext'],
+      contextExtractor: options['contextExtractor'] || '',
+      enableAuditLogging: options['enableAuditLogging'] || true,
     },
   };
 }

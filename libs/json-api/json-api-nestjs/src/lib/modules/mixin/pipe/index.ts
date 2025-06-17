@@ -61,6 +61,13 @@ export function idPipeMixin(
   return config && config.pipeForId ? config.pipeForId : (ParseIntPipe as any);
 }
 
+export function contextMixin(
+  entity: ModuleMixinOptions['entity'],
+  config?: EntityControllerParam
+): PipeMixin {
+  return config && config.pipeForQuery ? config.pipeForQuery : (ParseIntPipe as any);
+}
+
 export function checkItemEntityPipeMixin(
   entity: ModuleMixinOptions['entity']
 ): PipeMixin {

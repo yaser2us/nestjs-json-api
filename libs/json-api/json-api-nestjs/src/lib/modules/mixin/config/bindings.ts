@@ -16,7 +16,39 @@ import {
   parseRelationshipNamePipeMixin,
   postRelationshipPipeMixin,
   patchRelationshipPipeMixin,
+  contextMixin,
 } from '../pipe';
+import { DefaultContextPipe } from '../pipe/context/context.pipe';
+
+// Create a mixin for the context pipe
+export function createContextPipeMixin(PipeClass: any) {
+  return function contextPipeMixin(target: any, propertyKey: string, parameterIndex: number) {
+    // Apply the pipe to the parameter
+    const existingPipes = Reflect.getMetadata('pipes', target, propertyKey) || [];
+    existingPipes.push(PipeClass);
+    Reflect.defineMetadata('pipes', existingPipes, target, propertyKey);
+  };
+}
+
+// Add a function to create dynamic mixins based on config
+export function createQueryMixins(): any[] {
+  const baseMixins = [
+    queryInputMixin,
+    queryMixin,
+    queryFiledInIncludeMixin,
+    queryCheckSelectFieldMixin,
+    contextMixin
+  ];
+
+  // ✨ Add context pipe if enabled
+  // if (options.enableContext || options.pipeForQuery) {
+  // const contextPipe = options.pipeForQuery || DefaultContextPipe;
+  // baseMixins.push(createContextPipeMixin(contextPipe));
+  // }
+
+  return baseMixins;
+}
+
 
 const Bindings: BindingsConfig = {
   getAll: {
@@ -27,12 +59,14 @@ const Bindings: BindingsConfig = {
     parameters: [
       {
         decorator: Query,
-        mixins: [
-          queryInputMixin,
-          queryMixin,
-          queryFiledInIncludeMixin,
-          queryCheckSelectFieldMixin,
-        ],
+        mixins: createQueryMixins(), // ✨ Dynamic mixins
+
+        // mixins: [
+        //   queryInputMixin,
+        //   queryMixin,
+        //   queryFiledInIncludeMixin,
+        //   queryCheckSelectFieldMixin,
+        // ],
       },
     ],
   },

@@ -23,10 +23,11 @@ export async function getAll<E extends object, IdKey extends string = 'id'>(
 ): Promise<ResourceObject<E, 'array', null, IdKey>> {
   const { fields, include, sort, page } = query;
 
+  console.log('👤 getAll:', query.context, JSON.stringify(query,null,2));
+
   let defaultSortObject: OrderByCondition = {
-    [`${
-      this.typeormUtilsService.currentAlias
-    }.${this.typeormUtilsService.currentPrimaryColumn.toString()}`]: ASC,
+    [`${this.typeormUtilsService.currentAlias
+      }.${this.typeormUtilsService.currentPrimaryColumn.toString()}`]: ASC,
   };
 
   const includeForCountQuery = new Set<string>();

@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-import { IUsers, Users } from './users';
+import { IUsers, Users } from './usersL';
 
 export type IBookList = BookList;
 

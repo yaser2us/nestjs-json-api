@@ -4,6 +4,7 @@ export enum QueryField {
   include = 'include',
   page = 'page',
   fields = 'fields',
+  context = 'context',
 }
 
 export enum FilterOperand {
