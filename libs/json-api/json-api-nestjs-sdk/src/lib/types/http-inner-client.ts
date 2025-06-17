@@ -3,7 +3,7 @@ import {
   RelationKeys,
   ResourceObject,
   ResourceObjectRelationships,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 
 import { ParamObject } from '../utils';
 import { PostData, PatchData, RelationBodyData } from './http-request-params';

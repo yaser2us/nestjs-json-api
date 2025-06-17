@@ -2,7 +2,7 @@ import {
   CastIteratorType,
   HasId,
   Constructor,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 import { Any, Tuple, Union } from 'ts-toolbelt';
 import { Type } from '@nestjs/common/interfaces';
 

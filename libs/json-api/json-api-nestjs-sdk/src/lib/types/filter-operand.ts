@@ -1,4 +1,4 @@
-import { FilterOperand } from '@knoknoxjson-api-nestjs-shared';
+import { FilterOperand } from '@knoknox/json-api-nestjs-shared';
 
 export type FilterOperandForString = Exclude<
   FilterOperand,

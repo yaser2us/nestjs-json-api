@@ -5,7 +5,7 @@ import {
   AnyEntity,
   EntityClass,
   PropertyKeys,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 import { kebabCase } from 'change-case-commonjs';
 
 import { EntityParam, RelationProperty, TypeField } from '../../../types';

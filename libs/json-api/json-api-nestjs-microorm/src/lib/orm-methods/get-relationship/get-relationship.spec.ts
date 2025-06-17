@@ -1,8 +1,8 @@
 import { Collection, EntityManager, MikroORM } from '@mikro-orm/core';
 import { faker } from '@faker-js/faker';
 import { NotFoundException } from '@nestjs/common';
-import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
-import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
+import { ORM_SERVICE } from '@knoknox/json-api-nestjs';
+import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
 
 import {
   Addresses,

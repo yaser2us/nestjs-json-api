@@ -4,7 +4,7 @@ import {
   Inject,
   PipeTransform,
 } from '@nestjs/common';
-import { KEY_MAIN_INPUT_SCHEMA } from '@knoknoxjson-api-nestjs-shared';
+import { KEY_MAIN_INPUT_SCHEMA } from '@knoknox/json-api-nestjs-shared';
 import { errorMap } from 'zod-validation-error';
 import { ZodError } from 'zod';
 import { JSONValue } from '../../mixin/types';

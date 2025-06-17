@@ -1,5 +1,5 @@
 {
-  "name": "@knoknoxjson-api-nestjs-typeorm",
+  "name": "@knoknox/json-api-nestjs-typeorm",
   "version": "0.1.0-beta.3",
   "dependencies": {
     "tslib": ">2.3.0",

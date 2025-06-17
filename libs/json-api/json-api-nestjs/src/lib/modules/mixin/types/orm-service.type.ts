@@ -2,7 +2,7 @@ import {
   ResourceObject,
   ResourceObjectRelationships,
   RelationKeys,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 
 import {
   PatchData,

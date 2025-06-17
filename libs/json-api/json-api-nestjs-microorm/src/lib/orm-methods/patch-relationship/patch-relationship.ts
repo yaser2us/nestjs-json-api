@@ -1,5 +1,5 @@
-import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
-import { PatchRelationshipData } from '@knoknoxjson-api-nestjs';
+import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
+import { PatchRelationshipData } from '@knoknox/json-api-nestjs';
 import { getRelationship } from '../get-relationship/get-relationship';
 import { MicroOrmService } from '../../service';
 

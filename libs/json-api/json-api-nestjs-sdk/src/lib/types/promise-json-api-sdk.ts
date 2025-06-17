@@ -1,4 +1,4 @@
-import { EntityClass, RelationKeys } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass, RelationKeys } from '@knoknox/json-api-nestjs-shared';
 
 import { QueryParams, QueryParamsForOneItem } from './query-params';
 import { EntityArray } from '../utils';

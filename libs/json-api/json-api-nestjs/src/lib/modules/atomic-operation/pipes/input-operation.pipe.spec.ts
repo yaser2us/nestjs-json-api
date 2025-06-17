@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { KEY_MAIN_INPUT_SCHEMA } from '@knoknoxjson-api-nestjs-shared';
+import { KEY_MAIN_INPUT_SCHEMA } from '@knoknox/json-api-nestjs-shared';
 import { ZodError } from 'zod';
 import {
   InternalServerErrorException,

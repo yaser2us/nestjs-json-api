@@ -1,5 +1,5 @@
 import { ApiOperation, ApiParam, ApiQuery, ApiResponse } from '@nestjs/swagger';
-import { ObjectTyped, EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { ObjectTyped, EntityClass } from '@knoknox/json-api-nestjs-shared';
 import { Type } from '@nestjs/common';
 
 import { errorSchema, jsonSchemaResponse } from '../utils';

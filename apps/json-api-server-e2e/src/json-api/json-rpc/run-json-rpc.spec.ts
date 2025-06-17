@@ -3,7 +3,7 @@ import {
   ResultRpcFactoryPromise,
   ErrorCodeType,
   RpcError,
-} from '@knoknoxnestjs-json-rpc-sdk';
+} from '@knoknox/nestjs-json-rpc-sdk';
 
 import { creatRpcSdk, MapperRpc, run } from '../utils/run-application';
 

@@ -1,4 +1,4 @@
-import { isString } from '@knoknoxjson-api-nestjs-shared';
+import { isString } from '@knoknox/json-api-nestjs-shared';
 import { z } from 'zod';
 
 export function zodIncludeInputQuery() {

@@ -5,5 +5,5 @@ Helper module for **[json-api-nestjs](https://github.com/klerick/nestjs-json-api
 ## Installation
 
 ```bash  
-$ npm install @knoknoxjson-api-nestjs-shared
+$ npm install @knoknox/json-api-nestjs-shared
 ```  

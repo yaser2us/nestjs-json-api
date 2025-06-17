@@ -1,6 +1,6 @@
 import { DynamicModule } from '@nestjs/common';
 import { NonEmptyArray } from 'zod-validation-error';
-import { AnyEntity, EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@knoknox/json-api-nestjs-shared';
 import {
   NestController,
   NestImport,

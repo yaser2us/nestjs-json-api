@@ -5,7 +5,7 @@ import {
 } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
 import { generateSchema } from '@anatine/zod-openapi';
 import { Type } from '@nestjs/common';
-import { EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass } from '@knoknox/json-api-nestjs-shared';
 
 import { TypeField } from '../../../../types';
 import { errorSchema, schemaTypeForRelation } from '../utils';

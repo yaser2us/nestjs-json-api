@@ -6,7 +6,7 @@ import {
   Users,
 } from '@nestjs-json-api/typeorm-database';
 import { faker } from '@faker-js/faker';
-import { JsonSdkPromise } from '@knoknoxjson-api-nestjs-sdk';
+import { JsonSdkPromise } from '@knoknox/json-api-nestjs-sdk';
 
 import { creatSdk, run } from '../utils/run-application';
 

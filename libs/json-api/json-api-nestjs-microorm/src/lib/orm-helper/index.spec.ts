@@ -19,7 +19,7 @@ import {
 
 import { DEFAULT_ARRAY_TYPE, ENTITY_METADATA_TOKEN } from '../constants';
 
-import { TypeField } from '@knoknoxjson-api-nestjs';
+import { TypeField } from '@knoknox/json-api-nestjs';
 
 import {
   getProps,

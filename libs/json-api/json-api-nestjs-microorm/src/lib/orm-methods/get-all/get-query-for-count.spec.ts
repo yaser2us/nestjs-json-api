@@ -1,6 +1,6 @@
 import { EntityManager, MikroORM } from '@mikro-orm/core';
-import { FilterOperand } from '@knoknoxjson-api-nestjs-shared';
-import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
+import { FilterOperand } from '@knoknox/json-api-nestjs-shared';
+import { ORM_SERVICE } from '@knoknox/json-api-nestjs';
 import {
   UserGroups,
   Users,

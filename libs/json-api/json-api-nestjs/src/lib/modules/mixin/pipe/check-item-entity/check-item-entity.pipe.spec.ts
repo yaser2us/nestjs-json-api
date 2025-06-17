@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { NotFoundException } from '@nestjs/common';
-import { EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass } from '@knoknox/json-api-nestjs-shared';
 import { CheckItemEntityPipe } from './check-item-entity.pipe';
 import { CURRENT_ENTITY, FIND_ONE_ROW_ENTITY } from '../../../../constants';
 

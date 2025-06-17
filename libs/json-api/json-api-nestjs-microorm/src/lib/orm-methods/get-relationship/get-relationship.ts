@@ -1,6 +1,6 @@
-import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
+import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
 import { NotFoundException } from '@nestjs/common';
-import { ValidateQueryError } from '@knoknoxjson-api-nestjs';
+import { ValidateQueryError } from '@knoknox/json-api-nestjs';
 import { serialize } from '@mikro-orm/core';
 
 import { MicroOrmService } from '../../service';

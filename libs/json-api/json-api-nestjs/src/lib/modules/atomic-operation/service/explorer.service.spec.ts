@@ -1,6 +1,6 @@
 import { Test } from '@nestjs/testing';
 import { ModulesContainer } from '@nestjs/core';
-import { Operation } from '@knoknoxjson-api-nestjs-shared';
+import { Operation } from '@knoknox/json-api-nestjs-shared';
 import {
   MAP_ENTITY,
   MAP_CONTROLLER_ENTITY,

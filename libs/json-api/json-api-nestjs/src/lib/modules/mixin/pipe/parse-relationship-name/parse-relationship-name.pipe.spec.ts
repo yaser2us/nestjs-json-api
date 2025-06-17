@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UnprocessableEntityException } from '@nestjs/common';
-import { EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass } from '@knoknox/json-api-nestjs-shared';
 import { ParseRelationshipNamePipe } from './parse-relationship-name.pipe';
 import { CURRENT_ENTITY, CHECK_RELATION_NAME } from '../../../../constants';
 import { EntityParam } from '../../../../types';

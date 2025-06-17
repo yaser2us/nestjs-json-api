@@ -1,4 +1,4 @@
-import { FilterOperand, QueryField } from '@knoknoxjson-api-nestjs-shared';
+import { FilterOperand, QueryField } from '@knoknox/json-api-nestjs-shared';
 
 import { ASC } from '../../../../constants';
 import { usersEntityParamMapMockData } from '../../../../utils/___test___/test.helper';

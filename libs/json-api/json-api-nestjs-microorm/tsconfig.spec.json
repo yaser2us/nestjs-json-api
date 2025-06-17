@@ -9,10 +9,10 @@
       "node"
     ],
     "paths": {
-      "@knoknoxjson-api-nestjs-shared": [
+      "@knoknox/json-api-nestjs-shared": [
         "libs/json-api/json-api-nestjs-shared/src/index.ts"
       ],
-      "@knoknoxjson-api-nestjs": [
+      "@knoknox/json-api-nestjs": [
         "libs/json-api/json-api-nestjs/src/index.ts"
       ]
     },

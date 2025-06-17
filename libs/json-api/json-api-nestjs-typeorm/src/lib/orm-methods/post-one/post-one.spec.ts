@@ -3,7 +3,7 @@ import {
   JsonApiTransformerService,
   ORM_SERVICE,
   PostData,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 import { Repository } from 'typeorm';
 
 import { TypeOrmService, TypeormUtilsService } from '../../service';

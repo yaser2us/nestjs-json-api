@@ -3,7 +3,7 @@ import {
   EntityParam,
   TypeField,
   PrepareParams,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 import { MicroOrmParam } from '../type';
 import { DEFAULT_ARRAY_TYPE } from '../constants';
 

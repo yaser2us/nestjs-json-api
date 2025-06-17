@@ -11,7 +11,7 @@ import {
   JSON_API_CONTROLLER_POSTFIX,
 } from '../../../constants';
 import { ErrorInterceptors, LogTimeInterceptors } from '../interceptors';
-import { getEntityName } from '@knoknoxjson-api-nestjs-shared';
+import { getEntityName } from '@knoknox/json-api-nestjs-shared';
 
 export function createController(
   entity: ModuleMixinOptions['entity'],

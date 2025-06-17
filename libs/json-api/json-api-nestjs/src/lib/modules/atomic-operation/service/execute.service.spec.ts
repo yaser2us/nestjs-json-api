@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ModuleRef } from '@nestjs/core';
 import { ROUTE_ARGS_METADATA } from '@nestjs/common/constants';
-import { KEY_MAIN_INPUT_SCHEMA } from '@knoknoxjson-api-nestjs-shared';
+import { KEY_MAIN_INPUT_SCHEMA } from '@knoknox/json-api-nestjs-shared';
 import { ExecuteService, isZodError } from './execute.service';
 import { IterateFactory } from '../factory';
 import {

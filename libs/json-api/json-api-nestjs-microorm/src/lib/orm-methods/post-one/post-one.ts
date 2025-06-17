@@ -1,4 +1,4 @@
-import { PostData } from '@knoknoxjson-api-nestjs';
+import { PostData } from '@knoknox/json-api-nestjs';
 import { MicroOrmService } from '../../service';
 
 export async function postOne<E extends object, IdKey extends string>(

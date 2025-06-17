@@ -3,7 +3,7 @@ import {
   ObjectTyped,
   EntityClass,
   AnyEntity,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 import { pascalCase } from 'change-case-commonjs';
 
 import { MethodName } from '../types';

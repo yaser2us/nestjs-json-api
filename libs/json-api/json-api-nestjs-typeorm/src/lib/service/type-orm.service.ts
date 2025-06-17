@@ -14,12 +14,12 @@ import {
   CONTROLLER_OPTIONS_TOKEN,
   MODULE_OPTIONS_TOKEN,
   PrepareParams,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 import {
   ResourceObject,
   RelationKeys,
   ResourceObjectRelationships,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 
 import { Repository } from 'typeorm';
 

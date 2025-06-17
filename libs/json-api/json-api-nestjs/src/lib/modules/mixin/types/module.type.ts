@@ -1,4 +1,4 @@
-import { EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass } from '@knoknox/json-api-nestjs-shared';
 import { EntityParam } from '../../../types';
 
 export type EntityParamMap<E extends object> = Map<E, EntityParam<E>>;

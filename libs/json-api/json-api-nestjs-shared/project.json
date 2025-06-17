@@ -62,11 +62,11 @@
             "command": "node tools/scripts/prepare-package-json.mjs json-api-nestjs-shared"
           },
           {
-            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@knoknoxjson-api-nestjs-shared",
+            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@knoknox/json-api-nestjs-shared",
             "forwardAllArgs": false
           },
           {
-            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@knoknoxjson-api-nestjs-shared",
+            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@knoknox/json-api-nestjs-shared",
             "forwardAllArgs": false
           }
         ],

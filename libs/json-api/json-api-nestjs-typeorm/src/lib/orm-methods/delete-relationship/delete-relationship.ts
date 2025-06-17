@@ -1,5 +1,5 @@
-import { PostRelationshipData } from '@knoknoxjson-api-nestjs';
-import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
+import { PostRelationshipData } from '@knoknox/json-api-nestjs';
+import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
 
 import { TypeOrmService } from '../../service';
 

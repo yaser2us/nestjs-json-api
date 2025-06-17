@@ -5,7 +5,7 @@ import {
   SchemaObject,
 } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
 import { ApiBody, ApiOperation, ApiParam, ApiResponse } from '@nestjs/swagger';
-import { EntityClass } from '@knoknoxjson-api-nestjs-shared';
+import { EntityClass } from '@knoknox/json-api-nestjs-shared';
 
 import { errorSchema, schemaTypeForRelation } from '../utils';
 import { zodPatchRelationship } from '../../zod';

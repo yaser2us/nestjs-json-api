@@ -1,8 +1,8 @@
-import { PatchRelationshipData } from '@knoknoxjson-api-nestjs';
+import { PatchRelationshipData } from '@knoknox/json-api-nestjs';
 import {
   RelationKeys,
   ResourceObjectRelationships,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 
 import { getRelationship } from '../get-relationship/get-relationship';
 import { TypeOrmService } from '../../service';

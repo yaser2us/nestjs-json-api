@@ -1,9 +1,9 @@
 import { NotFoundException } from '@nestjs/common';
-import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
+import { RelationKeys } from '@knoknox/json-api-nestjs-shared';
 import {
   ValidateQueryError,
   PostRelationshipData,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 
 import { MicroOrmService } from '../../service';
 

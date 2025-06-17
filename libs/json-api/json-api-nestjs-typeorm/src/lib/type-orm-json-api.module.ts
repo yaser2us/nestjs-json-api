@@ -6,7 +6,7 @@ import {
   NestProvider,
   MODULE_OPTIONS_TOKEN,
   ErrorFormatService,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 
 import {
   CurrentEntityManager,

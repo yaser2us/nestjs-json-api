@@ -5,7 +5,7 @@ TypeOrm adapter for **[json-api-nestjs](https://github.com/klerick/nestjs-json-a
 ## Installation
 
 ```bash  
-$ npm install @knoknoxjson-api-nestjs-typeorm
+$ npm install @knoknox/json-api-nestjs-typeorm
 ```  
 
 

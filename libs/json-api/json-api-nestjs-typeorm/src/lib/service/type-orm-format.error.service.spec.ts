@@ -3,7 +3,7 @@ import {
   ORM_SERVICE,
   PostData,
   ENTITY_PARAM_MAP,
-} from '@knoknoxjson-api-nestjs';
+} from '@knoknox/json-api-nestjs';
 import { Repository } from 'typeorm';
 
 import { TypeOrmService } from './type-orm.service';

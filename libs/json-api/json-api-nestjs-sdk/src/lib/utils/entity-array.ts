@@ -1,4 +1,4 @@
-import { PageProps } from '@knoknoxjson-api-nestjs-shared';
+import { PageProps } from '@knoknox/json-api-nestjs-shared';
 
 export class EntityArray<T> extends Array<T> {
   constructor(items: T[], private pageProps: PageProps) {

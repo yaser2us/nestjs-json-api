@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ObjectTyped } from '@knoknoxjson-api-nestjs-shared';
+import { ObjectTyped } from '@knoknox/json-api-nestjs-shared';
 
 import {
   EntityParam,

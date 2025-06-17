@@ -5,7 +5,7 @@ import { Module } from '@nestjs/core/injector/module';
 import {
   KEY_MAIN_OUTPUT_SCHEMA,
   Operation,
-} from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs-shared';
 
 import { OperationController } from './operation.controller';
 import { ExecuteService, ExplorerService } from '../service';

@@ -8,7 +8,7 @@ import {
   createErrorCustomError,
   RpcHandler,
   RpcParamsPipe,
-} from '@knoknoxnestjs-json-rpc';
+} from '@knoknox/nestjs-json-rpc';
 import { ParseIntPipe } from '@nestjs/common';
 
 @RpcHandler()

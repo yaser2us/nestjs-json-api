@@ -1,5 +1,5 @@
 import { lastValueFrom, of } from 'rxjs';
-import { KEY_MAIN_OUTPUT_SCHEMA } from '@knoknoxjson-api-nestjs-shared';
+import { KEY_MAIN_OUTPUT_SCHEMA } from '@knoknox/json-api-nestjs-shared';
 import { AtomicOperationsService } from './atomic-operations.service';
 import { JsonApiUtilsService } from './index';
 import { HttpInnerClient, JsonApiSdkConfig } from '../types';

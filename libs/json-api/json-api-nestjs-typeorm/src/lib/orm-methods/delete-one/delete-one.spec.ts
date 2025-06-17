@@ -1,5 +1,5 @@
 import { TestingModule } from '@nestjs/testing';
-import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
+import { ORM_SERVICE } from '@knoknox/json-api-nestjs';
 
 import { OrmServiceFactory } from '../../factory';
 

@@ -12,8 +12,8 @@ import {
   ORM_SERVICE,
   MODULE_OPTIONS_TOKEN,
   ENTITY_PARAM_MAP,
-} from '@knoknoxjson-api-nestjs';
-import { getEntityName } from '@knoknoxjson-api-nestjs-shared';
+} from '@knoknox/json-api-nestjs';
+import { getEntityName } from '@knoknox/json-api-nestjs-shared';
 
 import { kebabCase } from 'change-case-commonjs';
 import { DataSource, EntityManager, EntityTarget, Repository } from 'typeorm';
