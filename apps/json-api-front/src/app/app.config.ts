@@ -1,10 +1,10 @@
 import { ApplicationConfig, InjectionToken } from '@angular/core';
-import { provideJsonApi } from '@klerick/json-api-nestjs-sdk/ngModule';
+import { provideJsonApi } from '@knoknoxjson-api-nestjs-sdk/ngModule';
 import {
   JsonRpcAngularConfig,
   TransportType,
   provideJsonRpc,
-} from '@klerick/nestjs-json-rpc-sdk/ngModule';
+} from '@knoknoxnestjs-json-rpc-sdk/ngModule';
 import { Subject } from 'rxjs';
 import { webSocket } from 'rxjs/webSocket';
 import { io } from 'socket.io-client';

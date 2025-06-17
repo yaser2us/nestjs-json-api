@@ -1,4 +1,4 @@
-import { QueryField } from '@klerick/json-api-nestjs-shared';
+import { QueryField } from '@knoknoxjson-api-nestjs-shared';
 import { usersEntityParamMapMockData } from '../../../../utils/___test___/test.helper';
 
 import { zodInputQuery } from './index';

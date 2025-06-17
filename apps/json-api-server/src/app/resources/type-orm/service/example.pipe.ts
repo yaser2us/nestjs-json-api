@@ -4,7 +4,7 @@ import {
   PipeTransform,
 } from '@nestjs/common';
 
-import { Query } from '@klerick/json-api-nestjs';
+import { Query } from '@knoknoxjson-api-nestjs';
 import { Users } from '@nestjs-json-api/typeorm-database';
 
 export class ExamplePipe

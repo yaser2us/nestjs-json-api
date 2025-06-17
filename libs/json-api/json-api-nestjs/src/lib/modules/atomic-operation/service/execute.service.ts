@@ -18,7 +18,7 @@ import {
   ResourceObject,
   ResourceObjectRelationships,
   KEY_MAIN_INPUT_SCHEMA,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import {
   InterceptorsConsumer,
   InterceptorsContextCreator,

@@ -4,7 +4,7 @@ import {
   Injectable,
   NestInterceptor,
 } from '@nestjs/common';
-import { ResourceObject } from '@klerick/json-api-nestjs-shared';
+import { ResourceObject } from '@knoknoxjson-api-nestjs-shared';
 
 import { map, Observable } from 'rxjs';
 

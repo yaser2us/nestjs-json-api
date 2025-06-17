@@ -4,7 +4,7 @@ import {
   ResourceObject,
   RelationKeys,
   ResourceObjectRelationships,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { ParamObject, HttpParams } from '../utils';
 
 import {

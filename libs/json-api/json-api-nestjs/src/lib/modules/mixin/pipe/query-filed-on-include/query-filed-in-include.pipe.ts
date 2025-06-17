@@ -1,5 +1,5 @@
 import { BadRequestException, PipeTransform } from '@nestjs/common';
-import { ObjectTyped } from '@klerick/json-api-nestjs-shared';
+import { ObjectTyped } from '@knoknoxjson-api-nestjs-shared';
 
 import { ValidateQueryError } from '../../../../types';
 import { Query } from '../../zod';

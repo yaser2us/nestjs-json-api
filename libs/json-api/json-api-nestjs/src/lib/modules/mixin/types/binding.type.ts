@@ -1,6 +1,6 @@
 import { Type } from '@nestjs/common/interfaces';
 import { PipeTransform, RequestMethod } from '@nestjs/common';
-import { AnyEntity, EntityClass } from '@klerick/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@knoknoxjson-api-nestjs-shared';
 import { JsonBaseController } from '../controllers';
 import { PipeMixin } from '../../../types';
 import { EntityControllerParam } from './decorator-options.type';

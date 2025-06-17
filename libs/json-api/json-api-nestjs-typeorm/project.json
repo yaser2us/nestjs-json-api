@@ -31,11 +31,11 @@
             "command": "node tools/scripts/prepare-package-json.mjs json-api-nestjs-typeorm"
           },
           {
-            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@klerick/json-api-nestjs-typeorm",
+            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@knoknoxjson-api-nestjs-typeorm",
             "forwardAllArgs": false
           },
           {
-            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@klerick/json-api-nestjs-typeorm",
+            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@knoknoxjson-api-nestjs-typeorm",
             "forwardAllArgs": false
           }
         ],

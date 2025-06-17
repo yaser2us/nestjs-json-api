@@ -1,5 +1,5 @@
 import { EntityManager, MikroORM } from '@mikro-orm/core';
-import { ORM_SERVICE } from '@klerick/json-api-nestjs';
+import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
 import {
   dbRandomName,
   getModuleForPgLite,

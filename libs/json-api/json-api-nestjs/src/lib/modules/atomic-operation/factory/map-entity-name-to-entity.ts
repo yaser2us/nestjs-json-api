@@ -3,7 +3,7 @@ import {
   getEntityName,
   AnyEntity,
   EntityClass,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { kebabCase } from 'change-case-commonjs';
 import { MapEntity } from '../types';
 import { MAP_ENTITY } from '../constants';

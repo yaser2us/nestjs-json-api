@@ -3,7 +3,7 @@ import {
   FilterOperandOnlyInNin,
   FilterOperandOnlySimple,
   ObjectTyped,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { z, ZodOptional } from 'zod';
 
 import { EntityParamMapService } from '../../service';

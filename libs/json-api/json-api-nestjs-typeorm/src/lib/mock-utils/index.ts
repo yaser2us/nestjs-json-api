@@ -12,8 +12,8 @@ import {
   DEFAULT_QUERY_PAGE,
   JsonApiTransformerService,
   Query,
-} from '@klerick/json-api-nestjs';
-import { QueryField } from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs';
+import { QueryField } from '@knoknoxjson-api-nestjs-shared';
 
 import { PGliteDriver, getPGliteInstance } from 'typeorm-pglite';
 import { DataSource, Repository } from 'typeorm';

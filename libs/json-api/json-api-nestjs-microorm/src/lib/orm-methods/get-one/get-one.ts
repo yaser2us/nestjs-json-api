@@ -1,5 +1,5 @@
 import { NotFoundException } from '@nestjs/common';
-import { QueryOne, ValidateQueryError } from '@klerick/json-api-nestjs';
+import { QueryOne, ValidateQueryError } from '@knoknoxjson-api-nestjs';
 import { wrap } from '@mikro-orm/core';
 import { MicroOrmService } from '../../service';
 

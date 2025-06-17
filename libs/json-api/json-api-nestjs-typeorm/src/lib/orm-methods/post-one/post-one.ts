@@ -1,5 +1,5 @@
-import { PostData, Query } from '@klerick/json-api-nestjs';
-import { QueryField, ResourceObject } from '@klerick/json-api-nestjs-shared';
+import { PostData, Query } from '@knoknoxjson-api-nestjs';
+import { QueryField, ResourceObject } from '@knoknoxjson-api-nestjs-shared';
 import { DeepPartial } from 'typeorm';
 
 import { TypeOrmService } from '../../service';

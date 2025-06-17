@@ -18,15 +18,15 @@ export default {
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/json-api-server-e2e',
   moduleNameMapper: {
-    '^@klerick/json-api-nestjs$':
+    '^@knoknoxjson-api-nestjs$':
       '<rootDir>/../../dist/libs/json-api/json-api-nestjs',
-    '^@klerick/json-api-nestjs-microorm$':
+    '^@knoknoxjson-api-nestjs-microorm$':
       '<rootDir>/../../dist/libs/json-api/json-api-nestjs-microorm',
-    '^@klerick/json-api-nestjs-shared$':
+    '^@knoknoxjson-api-nestjs-shared$':
       '<rootDir>/../../dist/libs/json-api/json-api-nestjs-shared',
-    '^@klerick/json-api-nestjs-typeorm$':
+    '^@knoknoxjson-api-nestjs-typeorm$':
       '<rootDir>/../../dist/libs/json-api/json-api-nestjs-typeorm',
-    '^@klerick/json-api-nestjs-sdk$':
+    '^@knoknoxjson-api-nestjs-sdk$':
       '<rootDir>/../../dist/libs/json-api/json-api-nestjs-sdk',
   },
 };

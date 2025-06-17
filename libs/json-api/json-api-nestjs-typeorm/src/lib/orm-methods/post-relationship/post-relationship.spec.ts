@@ -2,7 +2,7 @@ import { TestingModule } from '@nestjs/testing';
 import {
   JsonApiTransformerService,
   ORM_SERVICE,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import { Repository } from 'typeorm';
 
 import { TypeOrmService, TypeormUtilsService } from '../../service';

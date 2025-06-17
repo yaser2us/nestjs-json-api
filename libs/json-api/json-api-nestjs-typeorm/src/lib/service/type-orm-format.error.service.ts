@@ -3,7 +3,7 @@ import {
   EntityParam,
   ValidateQueryError,
   ENTITY_PARAM_MAP,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import {
   BadRequestException,
   ConflictException,

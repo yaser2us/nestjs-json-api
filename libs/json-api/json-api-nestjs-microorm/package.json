@@ -1,5 +1,5 @@
 {
-  "name": "@klerick/json-api-nestjs-microorm",
+  "name": "@knoknoxjson-api-nestjs-microorm",
   "version": "0.1.0-beta.6",
   "type": "commonjs",
   "main": "./src/index.js",

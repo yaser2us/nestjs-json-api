@@ -1,5 +1,5 @@
 {
-  "name": "@klerick/json-api-nestjs-shared",
+  "name": "@knoknoxjson-api-nestjs-shared",
   "version": "1.0.0-beta.3",
   "description": "Shared Helper for JsonApi Plugin for NestJs",
   "keywords": [

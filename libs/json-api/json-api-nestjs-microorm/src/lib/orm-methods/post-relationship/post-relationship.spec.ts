@@ -1,7 +1,7 @@
 import { Collection, EntityManager, MikroORM } from '@mikro-orm/core';
 import { faker } from '@faker-js/faker';
-import { ORM_SERVICE } from '@klerick/json-api-nestjs';
-import { RelationKeys } from '@klerick/json-api-nestjs-shared';
+import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
+import { RelationKeys } from '@knoknoxjson-api-nestjs-shared';
 import {
   Addresses,
   dbRandomName,

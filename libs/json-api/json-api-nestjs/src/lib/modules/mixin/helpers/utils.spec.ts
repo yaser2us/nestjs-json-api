@@ -1,4 +1,4 @@
-import { getEntityName } from '@klerick/json-api-nestjs-shared';
+import { getEntityName } from '@knoknoxjson-api-nestjs-shared';
 
 import { nameIt, excludeMethod, getProviderName } from './utils';
 import { Bindings } from '../config/bindings';

@@ -3,7 +3,7 @@ import { NotFoundException } from '@nestjs/common';
 import {
   JsonApiTransformerService,
   ORM_SERVICE,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 
 import { Equal, Repository } from 'typeorm';
 

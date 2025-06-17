@@ -2,7 +2,7 @@ import { Injectable, OnModuleInit, Inject } from '@nestjs/common';
 import { DECORATORS } from '@nestjs/swagger/dist/constants';
 import { ApiExtraModels, ApiTags } from '@nestjs/swagger';
 import { DiscoveryService } from '@nestjs/core';
-import { ObjectTyped, EntityClass } from '@klerick/json-api-nestjs-shared';
+import { ObjectTyped, EntityClass } from '@knoknoxjson-api-nestjs-shared';
 import { PARAMTYPES_METADATA } from '@nestjs/common/constants';
 
 import {

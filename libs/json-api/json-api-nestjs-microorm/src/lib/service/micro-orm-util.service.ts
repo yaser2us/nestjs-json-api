@@ -30,12 +30,12 @@ import {
   Query,
   QueryOne,
   Relationships,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import {
   RelationKeys,
   FilterOperand,
   ObjectTyped,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { kebabCase } from 'change-case-commonjs';
 import {
   CURRENT_ENTITY_MANAGER_TOKEN,

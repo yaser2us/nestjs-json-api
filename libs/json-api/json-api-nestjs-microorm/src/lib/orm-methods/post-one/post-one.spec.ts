@@ -1,7 +1,7 @@
 import { Collection, EntityManager, MikroORM } from '@mikro-orm/core';
 import { faker } from '@faker-js/faker';
 import { BadRequestException } from '@nestjs/common';
-import { ORM_SERVICE, PostData } from '@klerick/json-api-nestjs';
+import { ORM_SERVICE, PostData } from '@knoknoxjson-api-nestjs';
 
 import {
   Addresses,

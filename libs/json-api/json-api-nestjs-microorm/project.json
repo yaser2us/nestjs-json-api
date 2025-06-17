@@ -49,11 +49,11 @@
             "command": "node tools/scripts/prepare-package-json.mjs json-api-nestjs-microorm"
           },
           {
-            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@klerick/json-api-nestjs-microorm",
+            "command": "mkdir -p node_modules/@klerick && rm -rf node_modules/@knoknoxjson-api-nestjs-microorm",
             "forwardAllArgs": false
           },
           {
-            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@klerick/json-api-nestjs-microorm",
+            "command": "ln -s $(pwd)/dist/{projectRoot} node_modules/@knoknoxjson-api-nestjs-microorm",
             "forwardAllArgs": false
           }
         ],

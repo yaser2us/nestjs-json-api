@@ -1,4 +1,4 @@
-import { FilterOperand } from '@klerick/json-api-nestjs-shared';
+import { FilterOperand } from '@knoknoxjson-api-nestjs-shared';
 import { IsolationLevel } from 'typeorm/driver/types/IsolationLevel';
 
 export type TypeOrmParam = {

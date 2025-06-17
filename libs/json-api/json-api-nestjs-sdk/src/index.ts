@@ -2,7 +2,7 @@ export {
   FilterOperand,
   ResourceObject,
   QueryField,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 
 export { JsonApiUtilsService, JsonApiSdkService } from './lib/service';
 export * from './lib/json-api-js';

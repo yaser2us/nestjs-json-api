@@ -11,7 +11,7 @@ import { Module } from '@nestjs/core/injector/module';
 import {
   KEY_MAIN_INPUT_SCHEMA,
   KEY_MAIN_OUTPUT_SCHEMA,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { InputArray } from '../utils';
 import { InputOperationPipe } from '../pipes/input-operation.pipe';
 import { ExecuteService, ExplorerService } from '../service';

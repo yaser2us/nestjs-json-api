@@ -3,7 +3,7 @@ import {
   RelationKeys,
   PropertyKeys,
   TypeOfArray,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 
 import { Operands, OperandsRelation } from './filter-operand';
 export type SortType = 'ASC' | 'DESC';

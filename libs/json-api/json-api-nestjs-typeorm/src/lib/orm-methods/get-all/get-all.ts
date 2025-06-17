@@ -1,5 +1,5 @@
-import { Query, ASC, DESC } from '@klerick/json-api-nestjs';
-import { ObjectTyped, ResourceObject } from '@klerick/json-api-nestjs-shared';
+import { Query, ASC, DESC } from '@knoknoxjson-api-nestjs';
+import { ObjectTyped, ResourceObject } from '@knoknoxjson-api-nestjs-shared';
 
 import { TypeOrmService } from '../../service';
 

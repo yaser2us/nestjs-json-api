@@ -1,7 +1,7 @@
 import {
   JsonApiTransformerService,
   ORM_SERVICE,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import { TestingModule } from '@nestjs/testing';
 import { NotFoundException } from '@nestjs/common';
 

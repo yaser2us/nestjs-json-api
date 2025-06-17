@@ -1,5 +1,5 @@
 import { Repository } from 'typeorm';
-import { TypeField } from '@klerick/json-api-nestjs';
+import { TypeField } from '@knoknoxjson-api-nestjs';
 import {
   getRepository,
   Users,

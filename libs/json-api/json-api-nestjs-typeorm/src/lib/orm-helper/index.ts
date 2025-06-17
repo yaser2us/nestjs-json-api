@@ -1,4 +1,4 @@
-import { EntityParam, TypeField } from '@klerick/json-api-nestjs';
+import { EntityParam, TypeField } from '@knoknoxjson-api-nestjs';
 import { Repository } from 'typeorm';
 
 export const getRelation = <E extends object>(repository: Repository<E>) =>

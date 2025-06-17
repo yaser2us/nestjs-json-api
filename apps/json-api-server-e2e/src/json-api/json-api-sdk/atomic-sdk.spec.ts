@@ -1,5 +1,5 @@
 import { INestApplication } from '@nestjs/common';
-import { FilterOperand, JsonSdkPromise } from '@klerick/json-api-nestjs-sdk';
+import { FilterOperand, JsonSdkPromise } from '@knoknoxjson-api-nestjs-sdk';
 import {
   Addresses,
   CommentKind,

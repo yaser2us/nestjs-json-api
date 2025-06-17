@@ -15,19 +15,19 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@klerick/json-api-nestjs-microorm": [
+      "@knoknoxjson-api-nestjs-microorm": [
         "dist/libs/json-api/json-api-nestjs-microorm"
       ],
-      "@klerick/json-api-nestjs-typeorm": [
+      "@knoknoxjson-api-nestjs-typeorm": [
         "dist/libs/json-api/json-api-nestjs-typeorm"
       ],
-      "@klerick/nestjs-json-rpc": [
+      "@knoknoxnestjs-json-rpc": [
         "libs/json-rpc/nestjs-json-rpc/src/index.ts"
       ],
-      "@klerick/nestjs-json-rpc-sdk": [
+      "@knoknoxnestjs-json-rpc-sdk": [
         "libs/json-rpc/nestjs-json-rpc-sdk/src/index.ts"
       ],
-      "@klerick/nestjs-json-rpc-sdk/ngModule": [
+      "@knoknoxnestjs-json-rpc-sdk/ngModule": [
         "libs/json-rpc/nestjs-json-rpc-sdk/src/ngModule.ts"
       ],
       "@nestjs-json-api/microorm-database": [

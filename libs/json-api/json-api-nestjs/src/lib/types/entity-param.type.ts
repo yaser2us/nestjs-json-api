@@ -4,7 +4,7 @@ import {
   RelationKeys,
   IsIterator,
   Constructor,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import {
   CastIteratorType,
   UnionToTuple,

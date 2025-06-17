@@ -4,7 +4,7 @@
 import { Controller, Get, Query, Inject } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { simpleAccessControlledGetAll } from '@klerick/json-api-nestjs-typeorm';
+import { simpleAccessControlledGetAll } from '@knoknoxjson-api-nestjs-typeorm';
 
 // Import your entities
 import {

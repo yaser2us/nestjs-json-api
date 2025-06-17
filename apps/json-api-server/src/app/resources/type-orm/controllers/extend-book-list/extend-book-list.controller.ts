@@ -1,5 +1,5 @@
 import { ParseUUIDPipe } from '@nestjs/common';
-import { JsonApi, JsonBaseController } from '@klerick/json-api-nestjs';
+import { JsonApi, JsonBaseController } from '@knoknoxjson-api-nestjs';
 import { BookList } from '@nestjs-json-api/typeorm-database';
 
 @JsonApi(BookList, {

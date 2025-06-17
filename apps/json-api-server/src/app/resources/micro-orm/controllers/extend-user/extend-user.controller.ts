@@ -17,12 +17,12 @@ import {
   QueryOne,
   PatchRelationshipData,
   PostData,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import {
   ResourceObjectRelationships,
   ResourceObject,
   RelationKeys,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { ExamplePipe } from '../../service/example.pipe';
 import { ExampleService } from '../../service/example.service';
 import { ControllerInterceptor } from '../../service/controller.interceptor';

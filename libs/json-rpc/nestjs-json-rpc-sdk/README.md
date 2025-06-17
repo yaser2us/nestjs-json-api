@@ -1,20 +1,20 @@
 <p align='center'>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/v/@klerick/nestjs-json-rpc-sdk.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/l/@klerick/nestjs-json-rpc-sdk.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/dm/@klerick/nestjs-json-rpc-sdk.svg" alt="NPM Downloads" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/v/@knoknoxnestjs-json-rpc-sdk.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/l/@knoknoxnestjs-json-rpc-sdk.svg" alt="Package License" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc-sdk" target="_blank"><img src="https://img.shields.io/npm/dm/@knoknoxnestjs-json-rpc-sdk.svg" alt="NPM Downloads" /></a>
   <a href="http://commitizen.github.io/cz-cli/" target="_blank"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly" /></a>
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/klerick/02a4c98cf7008fea2af70dc2d50f4cb7/raw/nestjs-json-rpc-sdk.json" alt="Coverage Badge" />
 </p>
 
 # nestjs-json-rpc-sdk
 
-The plugin of client for help work with JSON-ROC over [nestjs-json-rpc](https://www.npmjs.com/package/@klerick/nestjs-json-rpc)
+The plugin of client for help work with JSON-ROC over [nestjs-json-rpc](https://www.npmjs.com/package/@knoknoxnestjs-json-rpc)
 Work with RPC look like call function
 
 ## Installation
 
 ```bash $ 
-npm install @klerick/nestjs-json-rpc-sdk
+npm install @knoknoxnestjs-json-rpc-sdk
 ```
 
 ## Example
@@ -43,7 +43,7 @@ export interface RpcService {
 ```typescript 
 import {
   RpcFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 const { rpc, rpcBatch } = RpcFactory(
   {
     rpcHost: `http://localhost:${port}`,
@@ -70,7 +70,7 @@ You can use typescript for type checking:
 ```typescript 
 import {
   RpcFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 
 
 
@@ -103,7 +103,7 @@ import axios from 'axios';
 import {
   RpcFactory,
   axiosTransportFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 
 const { rpc, rpcBatch } = RpcFactory<MapperRpc>(
   {
@@ -140,7 +140,7 @@ import axios from 'axios';
 import {
   RpcFactory,
   axiosTransportFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 
 const { rpc, rpcBatch, rpcForBatch } = RpcFactory<MapperRpc>(
   {
@@ -166,7 +166,7 @@ For use **WebSocket**
 ```typescript 
 import {
   RpcFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 import { WebSocket as ws } from 'ws';
 import { webSocket } from 'rxjs/webSocket';
 
@@ -191,7 +191,7 @@ You can use **socket.io**
 ```typescript 
 import {
   RpcFactory,
-} from '@klerick/nestjs-json-rpc-sdk';
+} from '@knoknoxnestjs-json-rpc-sdk';
 
 import { io } from 'socket.io-client';
 
@@ -217,7 +217,7 @@ import {
   provideJsonRpc,
   JsonRpcAngularConfig,
   TransportType,
-} from '@klerick/nestjs-json-rpc-sdk/ngModule'
+} from '@knoknoxnestjs-json-rpc-sdk/ngModule'
 import {
   provideHttpClient,
   withFetch,
@@ -228,7 +228,7 @@ import {
   JSON_RPC,
   RPC_BATCH,
   Rpc,
-} from '@klerick/nestjs-json-rpc-sdk/json-rpc-sdk.module';
+} from '@knoknoxnestjs-json-rpc-sdk/json-rpc-sdk.module';
 
 @Component({
   standalone: true,

@@ -8,8 +8,8 @@
 // users.controller.ts (create this file)
 
 import { Controller, Get, Query, Inject } from '@nestjs/common';
-import { ORM_SERVICE } from '@klerick/json-api-nestjs';
-import { createSimpleAccessControlledService, testSimpleAccessControl } from '@klerick/json-api-nestjs-typeorm';
+import { ORM_SERVICE } from '@knoknoxjson-api-nestjs';
+import { createSimpleAccessControlledService, testSimpleAccessControl } from '@knoknoxjson-api-nestjs-typeorm';
 
 @Controller('testing')
 export class TestingController {

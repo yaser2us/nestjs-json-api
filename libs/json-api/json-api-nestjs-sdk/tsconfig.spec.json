@@ -6,7 +6,7 @@
     "moduleResolution": "node10",
     "types": ["jest", "node"],
     "paths": {
-      "@klerick/json-api-nestjs-shared": [
+      "@knoknoxjson-api-nestjs-shared": [
         "libs/json-api/json-api-nestjs-shared/src/index.ts"
       ]
     },

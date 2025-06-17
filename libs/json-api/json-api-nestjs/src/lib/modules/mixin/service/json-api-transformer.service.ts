@@ -11,7 +11,7 @@ import {
   BaseMainData,
   RelationKeys,
   EntityClass,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import { RoutePathFactory } from '@nestjs/core/router/route-path-factory';
 
 import { EntityParam } from '../../../types';

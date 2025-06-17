@@ -4,7 +4,7 @@ MocroOrm adapter for **[json-api-nestjs](https://github.com/klerick/nestjs-json-
 ## Installation
 
 ```bash  
-$ npm install @klerick/json-api-nestjs-microorm
+$ npm install @knoknoxjson-api-nestjs-microorm
 ```  
 
 ## Configuration params

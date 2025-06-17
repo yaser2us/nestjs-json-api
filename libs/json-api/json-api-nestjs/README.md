@@ -18,7 +18,7 @@ need to write any code.
 ## Installation
 
 ```bash  
-$ npm install @klerick/json-api-nestjs
+$ npm install @knoknoxjson-api-nestjs
 ```  
 
 ## Example
@@ -27,8 +27,8 @@ Once the installation process is complete, we can import the **JsonApiModule** i
 ### TypeOrm
 ```typescript
 import {Module} from '@nestjs/common';
-import {JsonApiModule} from '@klerick/json-api-nestjs';
-import {TypeOrmJsonApiModule} from '@klerick/json-api-nestjs-typeorm';
+import {JsonApiModule} from '@knoknoxjson-api-nestjs';
+import {TypeOrmJsonApiModule} from '@knoknoxjson-api-nestjs-typeorm';
 import {Users} from 'type-orm/database';
 
 @Module({
@@ -45,8 +45,8 @@ export class AppModule {
 ### MicroOrm
 ```typescript
 import {Module} from '@nestjs/common';
-import {JsonApiModule} from '@klerick/json-api-nestjs';
-import {MicroOrmJsonApiModule} from '@klerick/json-api-nestjs-microorm';
+import {JsonApiModule} from '@knoknoxjson-api-nestjs';
+import {MicroOrmJsonApiModule} from '@knoknoxjson-api-nestjs-microorm';
 import {Users} from 'micro-orm/database';
 
 @Module({
@@ -106,10 +106,10 @@ import {
   InjectService,
   JsonApiService,
   Query,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import {
   ResourceObjectRelationships,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 import {ExampleService} from '../../service/example/example.service';
 
 @JsonApi(Users, {

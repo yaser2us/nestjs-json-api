@@ -1,4 +1,4 @@
-import { Operation } from '@klerick/json-api-nestjs-shared';
+import { Operation } from '@knoknoxjson-api-nestjs-shared';
 import { GenerateAtomicBody } from './generate-atomic-body';
 import { JsonApiUtilsService } from '../service';
 import { JsonApiSdkConfig } from '../types';

@@ -1,6 +1,6 @@
 import { Collection, EntityManager, MikroORM } from '@mikro-orm/core';
 import { faker } from '@faker-js/faker';
-import { ORM_SERVICE, PatchData } from '@klerick/json-api-nestjs';
+import { ORM_SERVICE, PatchData } from '@knoknoxjson-api-nestjs';
 
 import {
   Addresses,

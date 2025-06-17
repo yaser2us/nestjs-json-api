@@ -7,7 +7,7 @@ import {
   NestModule,
 } from '@nestjs/common';
 import { DiscoveryModule, RouterModule } from '@nestjs/core';
-import { AnyEntity, EntityClass } from '@klerick/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@knoknoxjson-api-nestjs-shared';
 
 import { OperationController } from './controllers';
 import { ExplorerService, ExecuteService, SwaggerService } from './service';

@@ -1,6 +1,6 @@
 import { DynamicModule, ValueProvider } from '@nestjs/common';
 import { Type } from '@nestjs/common/interfaces/type.interface';
-import { AnyEntity, EntityClass } from '@klerick/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@knoknoxjson-api-nestjs-shared';
 import { MapController } from '../types';
 import { MAP_CONTROLLER_ENTITY } from '../constants';
 

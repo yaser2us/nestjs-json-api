@@ -1,7 +1,7 @@
 <p align='center'>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/v/@klerick/nestjs-json-rpc.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/l/@klerick/nestjs-json-rpc.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/package/@klerick/nestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/dm/@klerick/nestjs-json-rpc.svg" alt="NPM Downloads" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/v/@knoknoxnestjs-json-rpc.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/l/@knoknoxnestjs-json-rpc.svg" alt="Package License" /></a>
+  <a href="https://www.npmjs.com/package/@knoknoxnestjs-json-rpc" target="_blank"><img src="https://img.shields.io/npm/dm/@knoknoxnestjs-json-rpc.svg" alt="NPM Downloads" /></a>
   <a href="http://commitizen.github.io/cz-cli/" target="_blank"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly" /></a>
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/klerick/02a4c98cf7008fea2af70dc2d50f4cb7/raw/nestjs-json-rpc.json" alt="Coverage Badge" />
 </p>
@@ -14,7 +14,7 @@ Now, You can use HTTP or WebSocket as transport protocol.
 ## Installation
 
 ```bash  
-$ npm install @klerick/nestjs-json-rpc
+$ npm install @knoknoxnestjs-json-rpc
 ```  
 ## Example
 
@@ -22,7 +22,7 @@ Once the installation process is complete, we can import the **NestjsJsonRpcModu
 
 ```typescript
 import {Module} from '@nestjs/common';
-import { NestjsJsonRpcModule, TransportType } from '@klerick/nestjs-json-rpc';
+import { NestjsJsonRpcModule, TransportType } from '@knoknoxnestjs-json-rpc';
 
 @Module({
   imports: [
@@ -42,7 +42,7 @@ so, now you have rpc server which allow:
 
 ```typescript
 import {Module} from '@nestjs/common';
-import { NestjsJsonRpcModule, TransportType } from '@klerick/nestjs-json-rpc';
+import { NestjsJsonRpcModule, TransportType } from '@knoknoxnestjs-json-rpc';
 
 @Module({
   imports: [
@@ -83,7 +83,7 @@ import {
   RpcHandler,
   RpcParamsPipe,
   createErrorCustomError,
-} from '@klerick/nestjs-json-rpc';
+} from '@knoknoxnestjs-json-rpc';
 
 @RpcHandler()
 export class RpcService {

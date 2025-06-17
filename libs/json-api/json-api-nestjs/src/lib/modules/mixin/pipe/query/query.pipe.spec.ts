@@ -3,7 +3,7 @@ import {
   InternalServerErrorException,
 } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
-import { FilterOperand, QueryField } from '@klerick/json-api-nestjs-shared';
+import { FilterOperand, QueryField } from '@knoknoxjson-api-nestjs-shared';
 import { ZodError } from 'zod';
 
 import { QueryPipe } from './query.pipe';

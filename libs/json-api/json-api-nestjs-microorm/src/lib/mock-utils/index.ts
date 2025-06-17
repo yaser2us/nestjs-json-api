@@ -1,13 +1,13 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { MikroOrmModule } from '@mikro-orm/nestjs';
 import { EntityManager, MikroORM } from '@mikro-orm/core';
-import { QueryField } from '@klerick/json-api-nestjs-shared';
+import { QueryField } from '@knoknoxjson-api-nestjs-shared';
 import {
   Query,
   CURRENT_ENTITY,
   MODULE_OPTIONS_TOKEN,
   JsonApiTransformerService,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 
 import {
   Addresses,

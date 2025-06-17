@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { NestjsJsonRpcModule, TransportType } from '@klerick/nestjs-json-rpc';
+import { NestjsJsonRpcModule, TransportType } from '@knoknoxnestjs-json-rpc';
 import { RpcService } from './service/rpc.service';
 
 @Module({

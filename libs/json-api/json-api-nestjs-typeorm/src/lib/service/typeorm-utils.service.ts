@@ -19,7 +19,7 @@ import {
   FilterOperand,
   getEntityName,
   RelationKeys,
-} from '@klerick/json-api-nestjs-shared';
+} from '@knoknoxjson-api-nestjs-shared';
 
 import {
   ValidateQueryError,
@@ -27,7 +27,7 @@ import {
   PostData,
   Query,
   UnionToTuple,
-} from '@klerick/json-api-nestjs';
+} from '@knoknoxjson-api-nestjs';
 import { kebabCase, camelCase, pascalCase } from 'change-case-commonjs';
 import { titleCase } from 'typeorm/util/StringUtils';
 import {

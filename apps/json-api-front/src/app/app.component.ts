@@ -1,12 +1,12 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { JsonApiSdkService } from '@klerick/json-api-nestjs-sdk';
-import { AtomicFactory } from '@klerick/json-api-nestjs-sdk/ngModule';
+import { JsonApiSdkService } from '@knoknoxjson-api-nestjs-sdk';
+import { AtomicFactory } from '@knoknoxjson-api-nestjs-sdk/ngModule';
 import {
   JSON_RPC,
   RPC_BATCH,
   Rpc,
-} from '@klerick/nestjs-json-rpc-sdk/ngModule';
+} from '@knoknoxnestjs-json-rpc-sdk/ngModule';
 
 import { RpcService as IRpcService } from '@nestjs-json-api/type-for-rpc';
 import { switchMap } from 'rxjs';

@@ -1,4 +1,4 @@
-import { AnyEntity, EntityClass } from '@klerick/json-api-nestjs-shared';
+import { AnyEntity, EntityClass } from '@knoknoxjson-api-nestjs-shared';
 import {
   JSON_API_DECORATOR_ENTITY,
   JSON_API_DECORATOR_OPTIONS,
